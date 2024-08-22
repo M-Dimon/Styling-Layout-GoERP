@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Styling_Layout_GoERP.NewPage1"
-             Title="NewPage1">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             x:Class="Styling_Layout_GoERP.FocusView"
+             Title="FocusView">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Buttons -->
+        <FlexLayout Grid.Row="0"
+                    Padding="10"
+                    Margin="10"
+                    AlignItems="Center">
+            <Button Text="Nav" Padding="10" Margin="10"/>
+            <Label Text="Page Title" Padding="10" Margin="10"/>
+            <SearchBar Placeholder="search..." Margin="10" />
+            <Button ImageSource="cogwheelwhite.svg"  Padding="10" Margin="10" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="White"/>
+        </FlexLayout>
+        
+        <!-- Table -->
+        <StackLayout Grid.Row="1">
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Section 1">
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Label 1" />
+                                <Label Text="Label 2" />
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Label 3" />
+                                <Label Text="Label 4" />
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Section 2">
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Label 5" />
+                                <Label Text="Label 6" />
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Label 7" />
+                                <Label Text="Label 8" />
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            
+        </StackLayout>
+    </Grid>
+    
+        
 </ContentPage>

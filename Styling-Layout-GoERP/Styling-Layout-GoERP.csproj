@@ -81,12 +81,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="FocusView.xaml.cs">
-	    <DependentUpon>FocusView.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="FocusView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

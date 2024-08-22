@@ -1,8 +1,8 @@
 namespace Styling_Layout_GoERP;
 
-public partial class NewPage1 : ContentPage
+public partial class FocusView : ContentPage
 {
-	public NewPage1()
+	public FocusView()
 	{
 		InitializeComponent();
 	}

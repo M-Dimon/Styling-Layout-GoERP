@@ -7,9 +7,23 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Styling_Layout_GoERP">
 
+    
+    <Shell.MenuBarItems>
+        <MenuBarItem Text="GoERP">
+
+        </MenuBarItem>
+        <MenuBarItem Text="Search">
+
+        </MenuBarItem>
+        <MenuBarItem Text="Account">
+
+        </MenuBarItem>
+    </Shell.MenuBarItems>
+
+    
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="FocusView"
+        ContentTemplate="{DataTemplate local:FocusView}"
+        Route="FocusView" />
 
 </Shell>
