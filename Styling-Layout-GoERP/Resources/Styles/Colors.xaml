@@ -11,6 +11,8 @@
     <Color x:Key="PrimaryDarkText">#2D2D2D</Color>
     <Color x:Key="Secondary">#6E4ABB</Color>
     <Color x:Key="SecondaryLight">#A893D6</Color>
+    <Color x:Key="SecondaryDarkText">#2D2D2D</Color>
+    <Color x:Key="Tertiary">#D600AA</Color>
         
     <!-- Standard Theme -->
     <Color x:Key="StandardPrimary">#02B6FF</Color>
