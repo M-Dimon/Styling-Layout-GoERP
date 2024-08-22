@@ -63,18 +63,21 @@
 	  <None Remove="Resources\Fonts\Roboto_Medium.ttf" />
 	  <None Remove="Resources\Fonts\Roboto_Regular.ttf" />
 	  <None Remove="Resources\Fonts\Roboto_Thin.ttf" />
-	  <None Remove="Resources\Images\DarkPurpleLogo.svg" />
-	  <None Remove="Resources\Images\StandardLogo.svg" />
+	  <None Remove="Resources\Images\dark_purple_logo.svg" />
+	  <None Remove="Resources\Images\standard_logo.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Controls\" />
 	  <Folder Include="Models\" />
+	  <Folder Include="Views\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -85,9 +88,6 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="FocusView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="FrontPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
