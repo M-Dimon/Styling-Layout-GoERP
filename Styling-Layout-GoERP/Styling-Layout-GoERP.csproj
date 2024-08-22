@@ -75,8 +75,6 @@
 
 	<ItemGroup>
 	  <Folder Include="Models\" />
-	  <Folder Include="Controls\" />
-	  <Folder Include="Views\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -87,6 +85,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="FocusView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="FrontPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

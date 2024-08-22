@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:YourAppName.Controls"
+             x:Class="GoERP_Layout.MainPage">
+
+    <Grid RowSpacing="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="AUTO"/>
+        </Grid.RowDefinitions>
+
+        <!-- App Header -->
+        <Grid Background="LightGray"
+              Padding="6"
+              ColumnSpacing="10"
+              Grid.Row="0"
+              >
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="AUTO"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Logo -->
+            <Image Source="logo_jits.png" 
+                   Grid.Column="0"
+                   MaximumWidthRequest="40"
+                   />
+
+            <!-- Search Bar-->
+            <Entry Grid.Column="1" 
+                     Placeholder="Search"
+                     BackgroundColor="White"
+                     TextColor="Black"
+                     PlaceholderColor="#555"
+                     Margin="10,0,10,0"
+                     MaximumWidthRequest="200"
+                     MinimumWidthRequest="140"/>
+
+            <!-- User -->
+            <FlexLayout Grid.Column="2">
+                <Image Source="quality.png"
+                           Aspect="AspectFill"
+                           HeightRequest="40"
+                           WidthRequest="40"/>
+                <Grid RowSpacing="5"
+                          Padding="10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="John Doe"
+                               Grid.Row="0"
+                               FontSize="12"
+                               TextColor="White"/>
+                    <Label Text="Admin"
+                               Grid.Row="1"
+                               FontSize="10"
+                               TextColor="White"/>
+                </Grid>
+            </FlexLayout>
+
+        </Grid>
+
+        <!-- Main Nav -->
+        <FlexLayout Background="#555"
+                    Grid.Row="1"
+                    MaximumHeightRequest="60"
+                    AlignItems="Start"
+                    AlignContent="SpaceBetween">
+
+            <Button Text="Office" Background="Black" TextColor="White" MaximumWidthRequest="200" Padding="10" Margin="5"/>
+            <Button Text="Retail" Background="Black" TextColor="White" MaximumWidthRequest="200" Padding="10" Margin="5"/>
+        </FlexLayout>
+
+        <!-- Scrollable Content -->
+        <ScrollView Grid.Row="2">
+            <StackLayout Margin="5">
+                <Grid ColumnDefinitions="*,*,*,*" Margin="5">
+                    <Button Text="Bank Account" ImageSource="bank_icon.png" Padding="10" Margin="5" Grid.Column="0" />
+                    <Button Text="Button 2" ImageSource="icon2.png" Padding="10" Margin="5" Grid.Column="1" />
+                    <Button Text="Button 3" ImageSource="icon3.png" Padding="10" Margin="5" Grid.Column="2" />
+                    <Button Text="Button 4" ImageSource="icon4.png" Padding="10" Margin="5" Grid.Column="3" />
+                </Grid>
+
+                <StackLayout>
+                    <local:CardView Title="Account Information">
+                    </local:CardView>
+                    <local:CardView Title="Order Summary">
+                    </local:CardView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+
+        <!-- Seccondary Nav -->
+
+        <!-- Bot Nav -->
+
+
+    </Grid>
+
+</ContentPage>
