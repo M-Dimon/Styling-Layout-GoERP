@@ -20,10 +20,16 @@
         </MenuBarItem>
     </Shell.MenuBarItems>
 
+    <TabBar>
+        <ShellContent
+            Title="FocusView"
+            ContentTemplate="{DataTemplate local:FocusView}"
+            Route="FocusView" />
+        <ShellContent
+            Title="LandingPage"
+            ContentTemplate="{DataTemplate local:LandingPage}"
+            Route="LandingPage" />
+    </TabBar>
     
-    <ShellContent
-        Title="FocusView"
-        ContentTemplate="{DataTemplate local:FocusView}"
-        Route="FocusView" />
 
 </Shell>

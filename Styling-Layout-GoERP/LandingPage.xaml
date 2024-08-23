@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Styling_Layout_GoERP.LandingPage"
+             Title="LandingPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Nav Buttons -->
+        <!-- First Row -->
+        <Button Grid.Row="0" Grid.Column="0" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="0" Grid.Column="1" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="0" Grid.Column="2" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="0" Grid.Column="3" Text="Nav" Padding="10" Margin="10"/>
+
+        <!-- Second Row -->
+        <Button Grid.Row="1" Grid.Column="0" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="1" Grid.Column="2" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="1" Grid.Column="3" Text="Nav" Padding="10" Margin="10"/>
+        
+        <!-- Third Row -->
+        <Button Grid.Row="2" Grid.Column="0" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="Nav" Padding="10" Margin="10"/>
+        <Button Grid.Row="2" Grid.Column="3" Text="Nav" Padding="10" Margin="10"/>
+        
+        <!-- Views -->
+        <ScrollView Grid.Row="3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Text="Box title" Padding="10" Margin="10"/>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                    </Grid.ColumnDefinitions>
+                    <!-- First row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="3" Text="Amount Inserted" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="4" Text="Amount Withdrawn" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="5" Text="Amount Total" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" Margin="10"/>
+                    <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" Margin="10"/>
+                    <!-- Second row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" Margin="10"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" Margin="10"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" Margin="10"/>
+                    <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="1" Grid.Column="4" Text="125,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="1" Grid.Column="5" Text="125,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="1" Grid.Column="6" Text="John Doe" Padding="10" Margin="10"/>
+                    <Label Grid.Row="1" Grid.Column="7" Text="23/08/2024" Padding="10" Margin="10"/>
+                    <!-- Third row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" Margin="10"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Checking" Padding="10" Margin="10"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="John Doe's personal checking account" Padding="10" Margin="10"/>
+                    <Label Grid.Row="2" Grid.Column="3" Text="500,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="2" Grid.Column="4" Text="250,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="2" Grid.Column="5" Text="250,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="2" Grid.Column="6" Text="John Doe" Padding="10" Margin="10"/>
+                    <Label Grid.Row="2" Grid.Column="7" Text="23/08/2024" Padding="10" Margin="10"/>
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" Margin="10"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Investment" Padding="10" Margin="10"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="John Doe's personal investment account" Padding="10" Margin="10"/>
+                    <Label Grid.Row="3" Grid.Column="3" Text="1000,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="3" Grid.Column="4" Text="500,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="3" Grid.Column="5" Text="500,-" Padding="10" Margin="10" HorizontalOptions="End"/>
+                    <Label Grid.Row="3" Grid.Column="6" Text="John Doe" Padding="10" Margin="10"/>
+                    <Label Grid.Row="3" Grid.Column="7" Text="23/08/2024" Padding="10" Margin="10"/>
+                </Grid>
+            </Grid>
+
+        </ScrollView>
+    </Grid>
+</ContentPage>
