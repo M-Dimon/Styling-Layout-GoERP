@@ -29,6 +29,10 @@
             Title="LandingPage"
             ContentTemplate="{DataTemplate local:LandingPage}"
             Route="LandingPage" />
+        <ShellContent
+            Title="FrontPage1"
+            ContentTemplate="{DataTemplate local:FrontPage1}"
+            Route="FrontPage1" />
     </TabBar>
     
 
