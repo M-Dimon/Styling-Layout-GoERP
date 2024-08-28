@@ -81,10 +81,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="MobileStandardTheme.xaml.cs">
+	    <DependentUpon>MobileStandardTheme.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MobileLightTheme.xaml.cs">
+	    <DependentUpon>MobileLightTheme.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="FocusView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FrontPage1.xaml">
+	  <MauiXaml Update="MobileLightTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MobileStandardTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LandingPage.xaml">

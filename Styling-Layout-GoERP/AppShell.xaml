@@ -7,32 +7,29 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Styling_Layout_GoERP">
 
-    
-    <Shell.MenuBarItems>
-        <MenuBarItem Text="GoERP">
-
-        </MenuBarItem>
-        <MenuBarItem Text="Search">
-
-        </MenuBarItem>
-        <MenuBarItem Text="Account">
-
-        </MenuBarItem>
-    </Shell.MenuBarItems>
+      
 
     <TabBar>
-        <ShellContent
-            Title="FocusView"
-            ContentTemplate="{DataTemplate local:FocusView}"
-            Route="FocusView" />
-        <ShellContent
-            Title="LandingPage"
-            ContentTemplate="{DataTemplate local:LandingPage}"
-            Route="LandingPage" />
-        <ShellContent
-            Title="FrontPage1"
-            ContentTemplate="{DataTemplate local:FrontPage1}"
-            Route="FrontPage1" />
+        <Tab Title="Standard Theme">
+            <ShellContent
+                Title="Mobile Front Page"
+                ContentTemplate="{DataTemplate local:MobileStandardTheme}"
+                Route="MobileStandardTheme" />
+            <ShellContent
+                Title="FocusView"
+                ContentTemplate="{DataTemplate local:FocusView}"
+                Route="FocusView" />
+            <ShellContent
+                Title="LandingPage"
+                ContentTemplate="{DataTemplate local:LandingPage}"
+                Route="LandingPage" />
+        </Tab>
+        <Tab Title="Light Theme">
+            <ShellContent
+                Title="Mobile Light Theme"
+                ContentTemplate="{DataTemplate local:MobileLightTheme}"
+                Route="MobileLightTheme" />
+        </Tab>
     </TabBar>
     
 
