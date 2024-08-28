@@ -18,34 +18,34 @@
         <!-- Nav button area -->
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="AUTO" />
+                <ColumnDefinition Width="AUTO" />
+                <ColumnDefinition Width="AUTO" />
+                <ColumnDefinition Width="AUTO" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
             </Grid.RowDefinitions>
 
             <!-- First line -->
-            <Button Grid.Row="0" Grid.Column="0" Text="page1" Padding="10" Margin="10"/>
-            <Button Grid.Row="0" Grid.Column="1" Text="page2" Padding="10" Margin="10"/>
-            <Button Grid.Row="0" Grid.Column="2" Text="page3" Padding="10" Margin="10"/>
-            <Button Grid.Row="0" Grid.Column="3" Text="page4" Padding="10" Margin="10"/>
+            <Button Grid.Row="0" Grid.Column="0" Text="page1" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="page2" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="0" Grid.Column="2" Text="page3" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="0" Grid.Column="3" Text="page4" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
 
             <!-- Second line -->
-            <Button Grid.Row="1" Grid.Column="0" Text="page5" Padding="10" Margin="10"/>
-            <Button Grid.Row="1" Grid.Column="1" Text="page6" Padding="10" Margin="10"/>
-            <Button Grid.Row="1" Grid.Column="2" Text="page7" Padding="10" Margin="10"/>
-            <Button Grid.Row="1" Grid.Column="3" Text="page8" Padding="10" Margin="10"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="page5" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="page6" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="1" Grid.Column="2" Text="page7" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="1" Grid.Column="3" Text="page8" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
 
             <!-- Third line -->
-            <Button Grid.Row="2" Grid.Column="0" Text="page9" Padding="10" Margin="10"/>
-            <Button Grid.Row="2" Grid.Column="1" Text="page10" Padding="10" Margin="10"/>
-            <Button Grid.Row="2" Grid.Column="2" Text="page11" Padding="10" Margin="10"/>
-            <Button Grid.Row="2" Grid.Column="3" Text="page12" Padding="10" Margin="10"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="page9" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="page10" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="page11" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="page12" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
 
         </Grid>
         <ScrollView Grid.Row="1">
