@@ -9,9 +9,9 @@
             <ColumnDefinition Width="AUTO" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="AUTO" />
+            <RowDefinition Height="AUTO" />
+            <RowDefinition Height="AUTO" />
 
 
         </Grid.RowDefinitions>
@@ -49,29 +49,24 @@
             <Button Grid.Row="2" Grid.Column="3" Text="page12" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
 
         </Grid>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" BackgroundColor="white" Margin="20" Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
                 <RowDefinition Height="AUTO" />
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="AUTO" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="AUTO" />
-                    <ColumnDefinition Width="AUTO" />
                 </Grid.ColumnDefinitions>
-
-                <Button Grid.Column="0" Text="Nav" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
-                <Label Grid.Column="1" Text="Box title" Padding="10" Margin="10" FontSize="20" FontAttributes="Bold" TextTransform="Uppercase"/>
-                <Button Grid.Column="2" Text="B1" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
-                <Button Grid.Column="3" Text="B2" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
+                <Label Grid.Column="0" Text="Box title" Padding="10" Margin="10" FontSize="20" FontAttributes="Bold" TextTransform="Uppercase"/>
+                <Button Grid.Column="1" Text="B2" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
             </Grid>
             
             
             
-            <ScrollView Grid.Row="1" Margin="10" BackgroundColor="white" Padding="10" >
-                <Grid>
+            <ScrollView Grid.Row="1">
+                <Grid  Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
                         <RowDefinition Height="AUTO" />
@@ -172,7 +167,7 @@
                 </Grid>
             </ScrollView>
         </Grid>
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="2" BackgroundColor="white" Margin="20" Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
                 <RowDefinition Height="AUTO" />
@@ -184,14 +179,11 @@
                     <ColumnDefinition Width="AUTO" />
                     <ColumnDefinition Width="AUTO" />
                 </Grid.ColumnDefinitions>
-
-                <Button Grid.Column="0" Text="Nav" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
                 <Label Grid.Column="1" Text="Box title" Padding="10" Margin="10" FontSize="20" FontAttributes="Bold" TextTransform="Uppercase"/>
-                <Button Grid.Column="2" Text="B1" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
                 <Button Grid.Column="3" Text="B2" Padding="10" Margin="10" BackgroundColor="{StaticResource StandardDark}" TextColor="{StaticResource StandardButtonText}"/>
             </Grid>
-            <ScrollView Grid.Row="1" Margin="10"  BackgroundColor="white" Padding="10" >
-                <Grid>
+            <ScrollView Grid.Row="1">
+                <Grid  Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
                         <RowDefinition Height="AUTO" />
