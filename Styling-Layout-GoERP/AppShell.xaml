@@ -17,8 +17,8 @@
                 Route="MobileStandardTheme" />
             <ShellContent
                 Title="FocusView"
-                ContentTemplate="{DataTemplate local:FocusView}"
-                Route="FocusView" />
+                ContentTemplate="{DataTemplate local:FocusViewStandardTheme}"
+                Route="FocusViewStandardTheme" />
             <ShellContent
                 Title="LandingPage"
                 ContentTemplate="{DataTemplate local:LandingPage}"
@@ -29,6 +29,18 @@
                 Title="Mobile Light Theme"
                 ContentTemplate="{DataTemplate local:MobileLightTheme}"
                 Route="MobileLightTheme" />
+        </Tab>
+        <Tab Title="Dark Purple Theme">
+            <ShellContent
+                Title="Mobile Dark Purple Theme"
+                ContentTemplate="{DataTemplate local:MobileDarkPurpleTheme}"
+                Route="MobileDarkPurpleTheme" />
+        </Tab>
+        <Tab Title="Dark Blue Theme">
+            <ShellContent
+                Title="Mobile Dark Blue Theme"
+                ContentTemplate="{DataTemplate local:MobileDarkBlueTheme}"
+                Route="MobileDarkBlueTheme" />
         </Tab>
     </TabBar>
     
