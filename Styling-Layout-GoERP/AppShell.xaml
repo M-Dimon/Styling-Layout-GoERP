@@ -4,43 +4,65 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Styling_Layout_GoERP"
+    xmlns:standard="clr-namespace:Styling_Layout_GoERP.StandardTheme"
+    xmlns:light="clr-namespace:Styling_Layout_GoERP.LightTheme"
+    xmlns:blue="clr-namespace:Styling_Layout_GoERP.DarkBlueTheme"
+    xmlns:purple="clr-namespace:Styling_Layout_GoERP.DarkPurpleTheme"
     Shell.FlyoutBehavior="Disabled"
-    Title="Styling_Layout_GoERP">
+    Title="Styling_Layout_GoERP"
+    >
 
-      
+
+    <Shell.MenuBarItems >
+        <MenuBarItem>
+            <MenuFlyoutItem Text="Standard Theme" Command="{Binding Source={x:DataTemplate local:FocusView}}"/>
+            <MenuFlyoutItem Text="Theme" Command="{Binding Source={x:DataTemplate local:FocusView}}"/>
+            <MenuFlyoutItem Text="Standard" Command="{Binding Source={x:DataTemplate local:FocusView}}"/>
+            <MenuFlyoutItem Text="Light" Command="{Binding Source={x:DataTemplate local:FocusView}}"/>
+            <MenuFlyoutItem Text="Standard Theme" Command="{Binding Source={x:DataTemplate local:FocusView}}"/>
+        </MenuBarItem>
+    </Shell.MenuBarItems>
 
     <TabBar>
         <Tab Title="Standard Theme">
             <ShellContent
                 Title="Mobile Front Page"
-                ContentTemplate="{DataTemplate local:MobileStandardTheme}"
+                ContentTemplate="{DataTemplate standard:MobileStandardTheme}"
                 Route="MobileStandardTheme" />
             <ShellContent
                 Title="FocusView"
-                ContentTemplate="{DataTemplate local:FocusViewStandardTheme}"
+                ContentTemplate="{DataTemplate standard:FocusViewStandardTheme}"
                 Route="FocusViewStandardTheme" />
-            <ShellContent
-                Title="LandingPage"
-                ContentTemplate="{DataTemplate local:LandingPage}"
-                Route="LandingPage" />
         </Tab>
         <Tab Title="Light Theme">
             <ShellContent
                 Title="Mobile Light Theme"
-                ContentTemplate="{DataTemplate local:MobileLightTheme}"
+                ContentTemplate="{DataTemplate light:MobileLightTheme}"
                 Route="MobileLightTheme" />
+            <ShellContent
+                Title="Focus View Light Theme"
+                ContentTemplate="{DataTemplate light:FocusViewLightTheme}"
+                Route="FocusViewLightTheme" />
         </Tab>
         <Tab Title="Dark Purple Theme">
             <ShellContent
                 Title="Mobile Dark Purple Theme"
-                ContentTemplate="{DataTemplate local:MobileDarkPurpleTheme}"
+                ContentTemplate="{DataTemplate purple:MobileDarkPurpleTheme}"
                 Route="MobileDarkPurpleTheme" />
+            <ShellContent
+                Title="Focus View Dark Purple Theme"
+                ContentTemplate="{DataTemplate purple:FocusViewDarkPurpleTheme}"
+                Route="FocusViewDarkPurpleTheme" />
         </Tab>
         <Tab Title="Dark Blue Theme">
             <ShellContent
                 Title="Mobile Dark Blue Theme"
-                ContentTemplate="{DataTemplate local:MobileDarkBlueTheme}"
+                ContentTemplate="{DataTemplate blue:MobileDarkBlueTheme}"
                 Route="MobileDarkBlueTheme" />
+            <ShellContent
+                Title="Focus View Dark Blue Theme"
+                ContentTemplate="{DataTemplate blue:FocusViewDarkBlueTheme}"
+                Route="FocusViewDarkBlueTheme" />
         </Tab>
     </TabBar>
     

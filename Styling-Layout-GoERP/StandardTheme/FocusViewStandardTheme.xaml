@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Styling_Layout_GoERP.FocusViewStandardTheme"
+             x:Class="Styling_Layout_GoERP.StandardTheme.FocusViewStandardTheme"
+             xmlns:local="clr-namespace:Styling_Layout_GoERP.StandardTheme"
              Title="FocusViewStandardTheme"
-             BackgroundColor="{StaticResource StandardBackground}">
+             BackgroundColor="{StaticResource black}">
+
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="AUTO" />
@@ -12,10 +14,10 @@
             <RowDefinition Height="AUTO" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" BackgroundColor="white" Margin="20" Padding="20">
+        <Grid Grid.Row="0" Margin="20" Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
-                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="600" />
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
@@ -33,7 +35,7 @@
 
 
 
-            <ScrollView Grid.Row="1">
+            <ScrollView Grid.Row="1" BackgroundColor="white" Margin="10" Padding="10">
                 <Grid  Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />

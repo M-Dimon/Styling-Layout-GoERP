@@ -1,4 +1,4 @@
-namespace Styling_Layout_GoERP;
+namespace Styling_Layout_GoERP.StandardTheme;
 
 public partial class MobileStandardTheme : ContentPage
 {

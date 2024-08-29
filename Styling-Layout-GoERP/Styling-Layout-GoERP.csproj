@@ -81,34 +81,40 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="MobileStandardTheme.xaml.cs">
+	  <Compile Update="StandardTheme\MobileStandardTheme.xaml.cs">
 	    <DependentUpon>MobileStandardTheme.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="MobileLightTheme.xaml.cs">
+	  <Compile Update="LightTheme\MobileLightTheme.xaml.cs">
 	    <DependentUpon>MobileLightTheme.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DarkBlueTheme\FocusViewDarkBlueTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DarkPurpleTheme\FocusViewDarkPurpleTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FocusView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FocusViewLightTheme.xaml">
+	  <MauiXaml Update="LightTheme\FocusViewLightTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FocusViewStandardTheme.xaml">
+	  <MauiXaml Update="StandardTheme\FocusViewStandardTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MobileDarkBlueTheme.xaml">
+	  <MauiXaml Update="DarkBlueTheme\MobileDarkBlueTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MobileDarkPurpleTheme.xaml">
+	  <MauiXaml Update="DarkPurpleTheme\MobileDarkPurpleTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MobileLightTheme.xaml">
+	  <MauiXaml Update="LightTheme\MobileLightTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MobileStandardTheme.xaml">
+	  <MauiXaml Update="StandardTheme\MobileStandardTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LandingPage.xaml">
