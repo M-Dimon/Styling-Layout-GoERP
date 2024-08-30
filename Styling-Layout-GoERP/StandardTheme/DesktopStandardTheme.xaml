@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Styling_Layout_GoERP.StandardTheme.DesktopStandardTheme"
+             Title="DesktopStandardTheme"
+             BackgroundColor="{StaticResource StandardBackground}">
+
+    <Grid Margin="20" Padding="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Nav & setting button -->
+        <Button Text="NAV" Grid.Column="0" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Padding="10" Margin="10" HorizontalOptions="Start"/>
+        <Button Text="SETTINGS" Grid.Column="3" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Padding="10" Margin="10" HorizontalOptions="End"/>
+        
+        <!-- Content -->
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="1" Grid.Column="0"  Margin="10" Grid.ColumnSpan="2"  MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="10" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+
+            <!-- Box content -->
+            <Rectangle Grid.Column="0" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="1" Grid.Row="1" HeightRequest="250" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="2" Grid.Row="1" HeightRequest="120" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="3" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="4" Grid.Row="1" HeightRequest="100" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="5" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="6" Grid.Row="1" HeightRequest="80" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="7" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="8" Grid.Row="1" HeightRequest="250" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="9" Grid.Row="1" HeightRequest="150" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="10" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="11" Grid.Row="1" HeightRequest="250" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="12" Grid.Row="1" HeightRequest="120" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="13" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="14" Grid.Row="1" HeightRequest="100" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="15" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="16" Grid.Row="1" HeightRequest="80" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="17" Grid.Row="1" HeightRequest="200" WidthRequest="20" Fill="{StaticResource StandardDark}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="18" Grid.Row="1" HeightRequest="250" WidthRequest="20" Fill="{StaticResource StandardScroll}" VerticalOptions="End" Margin="6"/>
+            <Rectangle Grid.Column="19" Grid.Row="1" HeightRequest="150" WidthRequest="20" Fill="{StaticResource StandardPrimary}" VerticalOptions="End" Margin="6"/>
+
+        </Grid>
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="1" Grid.Column="2" Margin="10" Grid.ColumnSpan="1"  MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+            <Button Text="arrow down" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Margin="10" Padding="10" HorizontalOptions="End"/>
+
+            <!-- Box content -->
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <!-- First Row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+
+                    <!-- Second Row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Name 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Description 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Third Row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Name 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Description 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Name 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Description 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fifth Row -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Name 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Description 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Sixth Row -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Name 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Description 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Seventh Row -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Name 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="2" Text="Description 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eighth Row -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="Name 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="2" Text="Description 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Ninth Row -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Name 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="2" Text="Description 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Tenth Row -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Name 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="2" Text="Description 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eleventh Row -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Name 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="2" Text="Description 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                </Grid>
+            </ScrollView>
+        </Grid>
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="1" Grid.Column="3"  Margin="10" Grid.ColumnSpan="1" MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+            <Button Text="arrow down" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Margin="10" Padding="10"  HorizontalOptions="End"/>
+
+            <!-- Box content -->
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <!-- First Row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+
+                    <!-- Second Row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Name 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Description 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Third Row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Name 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Description 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Name 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Description 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fifth Row -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Name 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Description 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Sixth Row -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Name 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Description 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Seventh Row -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Name 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="2" Text="Description 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eighth Row -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="Name 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="2" Text="Description 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    
+                    <!-- Ninth Row -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Name 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="2" Text="Description 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    
+                    <!-- Tenth Row -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Name 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="2" Text="Description 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    
+                    <!-- Eleventh Row -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Name 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="2" Text="Description 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    
+
+                </Grid>
+            </ScrollView>
+        </Grid>
+
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="2" Grid.Column="0" Margin="10" Grid.ColumnSpan="2"  MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+            <Button Text="arrow down" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Margin="10" Padding="10" HorizontalOptions="End"/>
+
+            <!-- Box content -->
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <!-- First Row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+
+                    <!-- Second Row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Name 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Description 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Third Row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Name 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Description 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Name 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Description 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fifth Row -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Name 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Description 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Sixth Row -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Name 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Description 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Seventh Row -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Name 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="2" Text="Description 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eighth Row -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="Name 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="2" Text="Description 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Ninth Row -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Name 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="2" Text="Description 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Tenth Row -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Name 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="2" Text="Description 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eleventh Row -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Name 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="2" Text="Description 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                </Grid>
+            </ScrollView>
+        </Grid>
+
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="2" Grid.Column="2" Margin="10" Grid.ColumnSpan="1"  MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+            <Button Text="arrow down" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Margin="10" Padding="10" HorizontalOptions="End"/>
+
+            <!-- Box content -->
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <!-- First Row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+
+                    <!-- Second Row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Name 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Description 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Third Row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Name 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Description 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Name 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Description 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fifth Row -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Name 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Description 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Sixth Row -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Name 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Description 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Seventh Row -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Name 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="2" Text="Description 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eighth Row -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="Name 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="2" Text="Description 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Ninth Row -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Name 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="2" Text="Description 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Tenth Row -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Name 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="2" Text="Description 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eleventh Row -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Name 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="2" Text="Description 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                </Grid>
+            </ScrollView>
+        </Grid>
+
+        <Grid BackgroundColor="{StaticResource White}" Grid.Row="2" Grid.Column="3" Margin="10" Grid.ColumnSpan="1"  MaximumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Box title -->
+            <Label Text="Title" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" TextColor="{StaticResource StandardText}" FontSize="20" HorizontalTextAlignment="Start" Margin="10" Padding="10"/>
+            <Button Text="arrow down" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource StandardButtonBack}" TextColor="{StaticResource StandardButtonText}" Margin="10" Padding="10" HorizontalOptions="End"/>
+
+            <!-- Box content -->
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+                    <!-- First Row -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
+
+                    <!-- Second Row -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Name 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Description 1" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Third Row -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Name 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Description 2" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fourth Row -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Name 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Description 3" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Fifth Row -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Name 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Description 4" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Sixth Row -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Name 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Description 5" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Seventh Row -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Name 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="6" Grid.Column="2" Text="Description 6" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eighth Row -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="Name 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="7" Grid.Column="2" Text="Description 7" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Ninth Row -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Name 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="8" Grid.Column="2" Text="Description 8" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Tenth Row -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Name 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="9" Grid.Column="2" Text="Description 9" Padding="10" BackgroundColor="{StaticResource White}" TextColor="{StaticResource StandardText}"/>
+
+                    <!-- Eleventh Row -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Name 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                    <Label Grid.Row="10" Grid.Column="2" Text="Description 10" Padding="10" BackgroundColor="{StaticResource StandardBackground}" TextColor="{StaticResource StandardText}"/>
+                </Grid>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -33,6 +33,10 @@
                 Title="FocusView"
                 ContentTemplate="{DataTemplate standard:FocusViewStandardTheme}"
                 Route="FocusViewStandardTheme" />
+            <ShellContent
+                Title="Desktop Frontpage"
+                ContentTemplate="{DataTemplate standard:DesktopStandardTheme}"
+                Route="DesktopStandardTheme"/>
         </Tab>
         <Tab Title="Light Theme">
             <ShellContent
@@ -43,6 +47,10 @@
                 Title="Focus View Light Theme"
                 ContentTemplate="{DataTemplate light:FocusViewLightTheme}"
                 Route="FocusViewLightTheme" />
+            <ShellContent
+                Title="Desktop Frontpage"
+                ContentTemplate="{DataTemplate light:DesktopLightTheme}"
+                Route="DesktopLightTheme"/>
         </Tab>
         <Tab Title="Dark Purple Theme">
             <ShellContent
