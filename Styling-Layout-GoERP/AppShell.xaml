@@ -61,6 +61,10 @@
                 Title="Focus View Dark Purple Theme"
                 ContentTemplate="{DataTemplate purple:FocusViewDarkPurpleTheme}"
                 Route="FocusViewDarkPurpleTheme" />
+            <ShellContent
+                Title="Desktop View Dark Purple Theme"
+                ContentTemplate="{DataTemplate purple:DesktopDarkPurpleTheme}"
+                Route="DesktopViewDarkPurpleTheme" />
         </Tab>
         <Tab Title="Dark Blue Theme">
             <ShellContent
@@ -71,6 +75,10 @@
                 Title="Focus View Dark Blue Theme"
                 ContentTemplate="{DataTemplate blue:FocusViewDarkBlueTheme}"
                 Route="FocusViewDarkBlueTheme" />
+            <ShellContent
+                Title="Desktop View Dark Blue Theme"
+                ContentTemplate="{DataTemplate blue:DesktopDarkBlueTheme}"
+                Route="DesktopViewDarkBlueTheme" />
         </Tab>
     </TabBar>
     

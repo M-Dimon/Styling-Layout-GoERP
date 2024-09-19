@@ -90,7 +90,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DarkBlueTheme\DesktopDarkBlueTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="DarkBlueTheme\FocusViewDarkBlueTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DarkPurpleTheme\DesktopDarkPurpleTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="DarkPurpleTheme\FocusViewDarkPurpleTheme.xaml">
