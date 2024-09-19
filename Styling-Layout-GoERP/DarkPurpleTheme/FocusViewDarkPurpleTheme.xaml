@@ -56,14 +56,14 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <!-- First row -->
-                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white" />
-                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="3" Text="Amount Inserted" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="4" Text="Amount Withdrawn" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="5" Text="Amount Total" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
-                    <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="ID" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Name" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Description" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="3" Text="Amount Inserted" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="4" Text="Amount Withdrawn" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="5" Text="Amount Total" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
+                    <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
                     <!-- Second row -->
                     <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource Gray100}" />
                     <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" BackgroundColor="{StaticResource Gray100}"  />

@@ -99,14 +99,14 @@
                     <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
                     <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
                     <!-- Second row -->
-                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" />
-                    <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" />
-                    <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="4" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="5" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" BackgroundColor="{StaticResource Gray100}"  />
+                    <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" BackgroundColor="{StaticResource Gray100}"  />
+                    <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="4" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="5" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
                     <!-- Third row -->
                     <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <Label Grid.Row="2" Grid.Column="1" Text="Checking" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
@@ -117,14 +117,14 @@
                     <Label Grid.Row="2" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <Label Grid.Row="2" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <!-- Fourth Row -->
-                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}" />
-                    <Label Grid.Row="3" Grid.Column="1" Text="Investment" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="2" Text="John Doe's personal investment account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="3" Text="1000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="4" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="5" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="1" Text="Investment" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="2" Text="John Doe's personal investment account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="3" Text="1000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="4" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="5" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                     <!-- Fifth Row -->
                     <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
@@ -137,14 +137,14 @@
                     <Label Grid.Row="4" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
 
                     <!-- Sixth Row -->
-                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="1" Text="Loan" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="2" Text="John Doe's personal loan account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="3" Text="3000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="4" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="5" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="1" Text="Loan" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="2" Text="John Doe's personal loan account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="3" Text="3000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="4" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="5" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                     <!-- Seventh Row -->
                     <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
@@ -157,14 +157,14 @@
                     <Label Grid.Row="6" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
 
                     <!-- Eighth Row -->
-                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="1" Text="Pension" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="2" Text="John Doe's personal pension account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="3" Text="5000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="4" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="5" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="1" Text="Pension" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="2" Text="John Doe's personal pension account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="3" Text="5000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="4" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="5" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                 </Grid>
             </ScrollView>
@@ -216,14 +216,14 @@
                     <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
                     <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" BackgroundColor="{StaticResource DarkPurplePrimary}" TextColor="white"/>
                     <!-- Second row -->
-                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="4" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="5" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="1" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" BackgroundColor="{StaticResource Gray100}"  />
+                    <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" BackgroundColor="{StaticResource Gray100}"  />
+                    <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="4" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="5" Text="125,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="1" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
                     <!-- Third row -->
                     <Label Grid.Row="2" Grid.Column="0" Text="2" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <Label Grid.Row="2" Grid.Column="1" Text="Checking" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
@@ -234,14 +234,14 @@
                     <Label Grid.Row="2" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <Label Grid.Row="2" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}"/>
                     <!-- Fourth Row -->
-                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="1" Text="Investment" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="2" Text="John Doe's personal investment account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="3" Text="1000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="4" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="5" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="3" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="3" Grid.Column="0" Text="3" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="1" Text="Investment" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="2" Text="John Doe's personal investment account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="3" Text="1000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="4" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="5" Text="500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="3" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="3" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                     <!-- Fifth Row -->
                     <Label Grid.Row="4" Grid.Column="0" Text="4" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
@@ -254,14 +254,14 @@
                     <Label Grid.Row="4" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
 
                     <!-- Sixth Row -->
-                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="1" Text="Loan" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="2" Text="John Doe's personal loan account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="3" Text="3000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="4" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="5" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="5" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="5" Grid.Column="0" Text="5" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="1" Text="Loan" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="2" Text="John Doe's personal loan account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="3" Text="3000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="4" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="5" Text="1500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="5" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="5" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                     <!-- Seventh Row -->
                     <Label Grid.Row="6" Grid.Column="0" Text="6" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
@@ -274,14 +274,14 @@
                     <Label Grid.Row="6" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBack}" />
 
                     <!-- Eighth Row -->
-                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="1" Text="Pension" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="2" Text="John Doe's personal pension account" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="3" Text="5000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="4" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="5" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
-                    <Label Grid.Row="7" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource DarkPurpleGreyBackDark}"/>
+                    <Label Grid.Row="7" Grid.Column="0" Text="7" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="1" Text="Pension" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="2" Text="John Doe's personal pension account" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="3" Text="5000,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="4" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="5" Text="2500,-" Padding="10" HorizontalTextAlignment="End" BackgroundColor="{StaticResource Gray100}"/>
+                    <Label Grid.Row="7" Grid.Column="6" Text="John Doe" Padding="10" BackgroundColor="{StaticResource Gray100}" />
+                    <Label Grid.Row="7" Grid.Column="7" Text="23/08/2024" Padding="10" BackgroundColor="{StaticResource Gray100}" />
 
                 </Grid>
             </ScrollView>

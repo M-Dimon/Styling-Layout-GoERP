@@ -4,7 +4,7 @@
              x:Class="Styling_Layout_GoERP.StandardTheme.FocusViewStandardTheme"
              xmlns:local="clr-namespace:Styling_Layout_GoERP.StandardTheme"
              Title="FocusViewStandardTheme"
-             BackgroundColor="{StaticResource black}">
+             BackgroundColor="{StaticResource StandardBackground}">
 
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
@@ -35,7 +35,7 @@
 
 
 
-            <ScrollView Grid.Row="1" BackgroundColor="white" Margin="10" Padding="10">
+            <ScrollView Grid.Row="1" BackgroundColor="{StaticResource White}" Margin="10" Padding="10">
                 <Grid  Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
@@ -67,7 +67,7 @@
                     <Label Grid.Row="0" Grid.Column="6" Text="User" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
                     <Label Grid.Row="0" Grid.Column="7" Text="Date" Padding="10" BackgroundColor="{StaticResource StandardDark}" TextColor="white"/>
                     <!-- Second row -->
-                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10" />
+                    <Label Grid.Row="1" Grid.Column="0" Text="1" Padding="10"/>
                     <Label Grid.Row="1" Grid.Column="1" Text="Savings" Padding="10" />
                     <Label Grid.Row="1" Grid.Column="2" Text="John Doe's personal savings account" Padding="10" />
                     <Label Grid.Row="1" Grid.Column="3" Text="250,-" Padding="10" HorizontalTextAlignment="End"/>
