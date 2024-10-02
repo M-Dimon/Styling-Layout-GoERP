@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Styling_Layout_GoERP.Overall_StyleGuide"
+             Title="Overall_StyleGuide"
+             >
+    <ScrollView>
+        <Grid Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO" />
+                <ColumnDefinition Width="AUTO" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Overall Style Guide" FontSize="60" FontFamily="RobotoBlack" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Start"/>
+
+            <!-- Color -->
+            <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Theme Colors" FontSize="40" FontFamily="RobotoBold" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Start"/>
+
+                <Grid Grid.Row="1" Grid.Column="0" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Standard Theme Colors -->
+                    <Label Text="Standard Theme" FontSize="20" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+
+                    <!-- Main Colors -->
+                    <Label Text="Primary - StandardPrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardPrimary}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Secondary - StandardDark" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardDark}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Text - StandardText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardText}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Standard Background - StandardBackground" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardBackground}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+            
+                    <!-- Extra Colors -->
+                    <Label Text="Button Text - StandardButtonText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="0" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardButtonText}" Stroke="Black" StrokeThickness="1" Grid.Row="4" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Button Background - StandardButtonBack" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardButtonBack}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Scroll Wheel Color - StandardScroll" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource StandardScroll}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Light Theme Colors -->
+                    <Label Text="Light Theme" FontSize="20" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+
+                    <!-- Main Colors -->
+                    <Label Text="Primary - LightPrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightPrimary}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Secondary - LightDark" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightDark}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Text - LightText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightText}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4" />
+
+                    <Label Text="Standard Background - LightBackground" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="4" />
+                    <Rectangle Fill="{StaticResource LightBackground}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <!-- Extra Colors -->
+                    <Label Text="Button Text - LightButtonText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="0" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightButtonText}" Stroke="Black" StrokeThickness="1" Grid.Row="4" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Button Background - LightPrumary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightPrimary}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Scroll Wheel Color - LightScroll" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightScroll}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Light Grey - LightGrey" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource LightGrey}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="0" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Blue Dark Theme Colors -->
+                    <Label Text="Blue Dark Theme" FontSize="20" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+
+                    <!-- Main Colors -->
+                    <Label Text="Primary - DarkBluePrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBluePrimary}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Secondary - DarkBlueDark" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueDark}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Text - DarkBlueText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueText}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4" />
+
+                    <Label Text="Standard Background - DarkBlueBackground" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueBackground}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <!-- Extra Colors -->
+                    <Label Text="Button Text - DarkBlueButtonText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="0" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueButtonText}" Stroke="Black" StrokeThickness="1" Grid.Row="4" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Button Background DarkBluePrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBluePrimary}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Scroll Wheel Color - DarkBlueScroll" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueScroll}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Dark Grey - DarBlueDarkGrey" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkBlueDarkGrey}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="1" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="AUTO" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                        <RowDefinition Height="AUTO" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Dark Purple Theme Colors -->
+                    <Label Text="Dark Purple Theme" FontSize="20" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+
+                    <!-- Main Colors -->
+                    <Label Text="Primary - DarkPurplePrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurplePrimary}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Secondary - DarkPurpleLight" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurpleLight}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Text DarkPurpleText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurpleText}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Standard Background - DarkPurpleBackground" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurpleBackground}" Stroke="Black" StrokeThickness="1" Grid.Row="2" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <!-- Extra Colors -->
+                    <Label Text="Button Text - DarkPurpleButtonText" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="0" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurpleButtonText}" Stroke="Black" StrokeThickness="1" Grid.Row="4" Grid.Column="0" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Button Background - DarkPurplePrimary" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurplePrimary}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="1" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Scroll Wheel Color - DarkPurpleScroll" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand"  Margin="4" />
+                    <Rectangle Fill="{StaticResource DarkPurpleScroll}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="2" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4"/>
+
+                    <Label Text="Dark Grey - DarkPurpleDarkGrey" LineBreakMode="WordWrap" FontSize="12" FontFamily="RobotoMedium" TextColor="Black" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="4"/>
+                    <Rectangle Fill="{StaticResource DarkPurpleDarkGrey}" Stroke="Black" StrokeThickness="1"  Grid.Row="4" Grid.Column="3" MinimumHeightRequest="80" MinimumWidthRequest="80"  Margin="4" />
+
+                </Grid>
+            </Grid>
+       
+            <!-- Text Font -->
+            <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="AUTO" />
+                    <ColumnDefinition Width="AUTO" />
+                    <ColumnDefinition Width="AUTO" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Text Font" FontSize="40" FontFamily="RobotoBold" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Start"/>
+
+                <Grid Grid.Row="2" Grid.Column="1" Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="AUTO"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Type" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Text Example" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Font size" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Font Family" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="3" HorizontalOptions="Center" Margin="5"/>
+
+                    <BoxView HeightRequest="1" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"/>
+
+
+                    <Label Text="H1" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="35" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
+                    <Label Text="35px" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
+                    <Label Text="RobotoBlack" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+
+                    <Label Text="H2" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="30" FontFamily="RobotoBold" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
+                    <Label Text="30px" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
+                    <Label Text="RobotoBold" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+
+                    <Label Text="H3" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="25" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
+                    <Label Text="25px" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
+                    <Label Text="RobotoBlack" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+
+                    <Label Text="H4" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="20" FontFamily="RobotoMedium" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
+                    <Label Text="20px" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
+                    <Label Text="RobotoMedium" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+
+                    <Label Text="p" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="14" FontFamily="RobotoRegular" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
+                    <Label Text="14px" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
+                    <Label Text="RobotoRegular" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

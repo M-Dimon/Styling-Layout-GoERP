@@ -81,6 +81,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Overall_StyleGuide.xaml.cs">
+	    <DependentUpon>Overall_StyleGuide.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="StandardTheme\MobileStandardTheme.xaml.cs">
 	    <DependentUpon>MobileStandardTheme.xaml</DependentUpon>
 	  </Compile>
@@ -109,6 +112,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LightTheme\FocusViewLightTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Overall_StyleGuide.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="StandardTheme\DesktopStandardTheme.xaml">

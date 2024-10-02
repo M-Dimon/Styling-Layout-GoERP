@@ -24,6 +24,12 @@
     </Shell.MenuBarItems>
 
     <TabBar>
+        <Tab Title="Styleguide">
+            <ShellContent
+                Title="Overall Styleguide"
+                ContentTemplate="{DataTemplate local:Overall_StyleGuide}"
+                Route="Overall_StyleGuide" />
+        </Tab>
         <Tab Title="Standard Theme">
             <ShellContent
                 Title="Mobile Front Page"
