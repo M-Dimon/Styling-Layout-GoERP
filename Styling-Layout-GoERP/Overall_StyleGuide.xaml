@@ -4,11 +4,11 @@
              x:Class="Styling_Layout_GoERP.Overall_StyleGuide"
              Title="Overall_StyleGuide"
              >
-    <ScrollView>
+    <ScrollView Margin="40">
         <Grid Margin="15">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="AUTO" />
-                <ColumnDefinition Width="AUTO" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
@@ -20,7 +20,7 @@
             <Label Text="Overall Style Guide" FontSize="60" FontFamily="RobotoBlack" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Start"/>
 
             <!-- Color -->
-            <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand">
+            <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
@@ -35,10 +35,10 @@
 
                 <Grid Grid.Row="1" Grid.Column="0" Margin="5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
@@ -77,10 +77,10 @@
                 </Grid>
                 <Grid Grid.Row="1" Grid.Column="1" Margin="5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
@@ -122,10 +122,10 @@
                 </Grid>
                 <Grid Grid.Row="2" Grid.Column="0" Margin="5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
@@ -167,10 +167,10 @@
                 </Grid>
                 <Grid Grid.Row="2" Grid.Column="1" Margin="5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
-                        <ColumnDefinition Width="AUTO" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO" />
@@ -213,25 +213,32 @@
             </Grid>
        
             <!-- Text Font -->
-            <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand">
+            <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" Margin="20">
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="AUTO" />
-                    <ColumnDefinition Width="AUTO" />
-                    <ColumnDefinition Width="AUTO" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="AUTO" />
-                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Label Text="Text Font" FontSize="40" FontFamily="RobotoBold" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Start"/>
+                <Label Text="Text Font" FontSize="40" FontFamily="RobotoBold" TextColor="Black" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start"/>
+                
+                <!-- Desktop Font -->
+                <Label Text="Desktop" FontSize="30" FontFamily="RobotoBold" TextColor="Black" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
 
-                <Grid Grid.Row="2" Grid.Column="1" Margin="10">
+                <Grid Grid.Row="2" Grid.Column="0" Margin="10">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="AUTO"/>
-                        <ColumnDefinition Width="AUTO"/>
-                        <ColumnDefinition Width="AUTO"/>
-                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="AUTO"/>
@@ -243,38 +250,150 @@
                         <RowDefinition Height="AUTO"/>
                     </Grid.RowDefinitions>
 
-                    <Label Text="Type" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Margin="5"/>
-                    <Label Text="Text Example" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Type" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Text Example" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" Margin="5"/>
                     <Label Text="Font size" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
-                    <Label Text="Font Family" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="3" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Font Family" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="3" HorizontalOptions="Start" Margin="5"/>
 
                     <BoxView HeightRequest="1" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"/>
 
 
-                    <Label Text="H1" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
-                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="35" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
-                    <Label Text="35px" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
-                    <Label Text="RobotoBlack" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                    <Label Text="H1" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="35" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="35px" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="35" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
 
-                    <Label Text="H2" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
-                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="30" FontFamily="RobotoBold" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
-                    <Label Text="30px" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
-                    <Label Text="RobotoBold" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                    <Label Text="H2" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="30" FontFamily="RobotoBold" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="30px" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBold" FontSize="30" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
 
-                    <Label Text="H3" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
-                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="25" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
-                    <Label Text="25px" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
-                    <Label Text="RobotoBlack" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                    <Label Text="H3" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="25" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="25px" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
 
-                    <Label Text="H4" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
-                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="20" FontFamily="RobotoMedium" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
-                    <Label Text="20px" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
-                    <Label Text="RobotoMedium" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                    <Label Text="H4" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="20" FontFamily="RobotoMedium" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="5"/>
+                    <Label Text="20px" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoMedium" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
 
-                    <Label Text="p" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="5 10 "/>
-                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="14" FontFamily="RobotoRegular" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="1" HorizontalOptions="Fill" MaximumWidthRequest="600" Margin="5 10"/>
-                    <Label Text="14px" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="2" HorizontalOptions="FillAndExpand" Margin="5 10"/>
-                    <Label Text="RobotoRegular" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="3" HorizontalOptions="FillAndExpand" Margin="5 10" />
+                    <Label Text="p" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="14" FontFamily="RobotoRegular" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="14px" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoRegular" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+                </Grid>
+
+                <BoxView WidthRequest="1" BackgroundColor="Black" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Margin="10"/>
+
+                <!-- Tablet Font -->                
+                <Label Text="Tablet" FontSize="30" FontFamily="RobotoBold" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="Start" Margin="10"/>
+
+                <Grid Grid.Row="2" Grid.Column="2" Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Type" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Text Example" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Font size" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Font Family" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="3" HorizontalOptions="Start" Margin="5"/>
+
+                    <BoxView HeightRequest="1" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"/>
+
+
+                    <Label Text="H1" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="25" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="25px" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H2" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="20" FontFamily="RobotoBold" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="20px" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBold" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H3" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="18" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="18px" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H4" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="18" FontFamily="RobotoMedium" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="5"/>
+                    <Label Text="18px" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoMedium" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="p" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="14" FontFamily="RobotoRegular" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="14px" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoRegular" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+                </Grid>
+
+                <BoxView HeightRequest="1" BackgroundColor="Black" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="10"/>
+                
+                <!-- Mobile Font -->
+                <Label Text="Mobile" FontSize="30" FontFamily="RobotoBold" TextColor="Black" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" Margin="10"/>
+
+                <Grid Grid.Row="5" Grid.Column="0" Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="AUTO"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                        <RowDefinition Height="AUTO"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Type" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Text Example" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Font size" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="Font Family" FontSize="20" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="0" Grid.Column="3" HorizontalOptions="Start" Margin="5"/>
+
+                    <BoxView HeightRequest="1" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"/>
+
+
+                    <Label Text="H1" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" Margin="5"/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="25" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="25px" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="25" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="2" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H2" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="20" FontFamily="RobotoBold" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="20px" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBold" FontSize="20" FontFamily="RobotoBold" TextColor="{StaticResource StandardText}" Grid.Row="3" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H3" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="18" FontFamily="RobotoBlack" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="18px" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoBlack" FontSize="18" FontFamily="RobotoBlack" TextColor="{StaticResource StandardText}" Grid.Row="4" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="H4" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="18" FontFamily="RobotoMedium" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="1" HorizontalOptions="FillAndExpand"  Margin="5"/>
+                    <Label Text="18px" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoMedium" FontSize="18" FontFamily="RobotoMedium" TextColor="{StaticResource StandardText}" Grid.Row="5" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
+
+                    <Label Text="p" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start" Margin="10 "/>
+                    <Label Text="Lorem ipsum odor amet, consectetuer adipiscing elit. Ac vitae inceptos, mi gravida mus vivamus dapibus sapien. Mauris bibendum semper, diam ante ut nam mattis proin." FontSize="14" FontFamily="RobotoRegular" LineBreakMode="WordWrap" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="5"/>
+                    <Label Text="14px" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="RobotoRegular" FontSize="14" FontFamily="RobotoRegular" TextColor="{StaticResource StandardText}" Grid.Row="6" Grid.Column="3" HorizontalOptions="Fill" Margin="5" />
                 </Grid>
             </Grid>
 
