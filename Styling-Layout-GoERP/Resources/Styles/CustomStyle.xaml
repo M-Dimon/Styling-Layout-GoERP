@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Styling_Layout_GoERP.Resources.Styles.CustomStyle">
+    
+<!-- Style Guide Page Styling -->
+
+    <Style x:Key="SGCatTitle" TargetType="Label">
+        <Setter Property="Label.FontSize" Value="40"/>
+        <Setter Property="Label.FontFamily" Value="RobotoBold"/>
+        <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+        <Setter Property="Label.HorizontalOptions" Value="Start"/>
+    </Style>
+
+    <Style x:Key="SGCatUnderTitle" TargetType="Label">
+        <Setter Property="Label.FontSize" Value="30"/>
+        <Setter Property="Label.FontFamily" Value="RobotoBold"/>
+        <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+        <Setter Property="Label.HorizontalOptions" Value="Start"/>
+        <Setter Property="Label.Margin" Value="5"/>
+    </Style>
+
+    <Style x:Key="SGTableHeader" TargetType="Label">
+        <Setter Property="Label.FontSize" Value="20"/>
+        <Setter Property="Label.FontFamily" Value="RobotoMedium"/>
+        <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+        <Setter Property="Label.Margin" Value="5"/>
+    </Style>
+
+    <Style x:Key="SGText" TargetType="Label">
+        <Setter Property="Label.FontSize" Value="14"/>
+        <Setter Property="Label.FontFamily" Value="RobotoRegular"/>
+        <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+        <Setter Property="Label.Margin" Value="5"/>
+    </Style>
+
+    <Style x:Key="SGUnderLine" TargetType="BoxView">
+        <Setter Property="BoxView.HeightRequest" Value="1"/>
+        <Setter Property="BoxView.BackgroundColor" Value="{DynamicResource Black}"/>
+    </Style>
+    
+<!-- Product Styling -->
+    <!-- Fonts -->
+        <!-- Desktop H1 -->
+        <Style x:Key="DesktopH1" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="35"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+
+        <!-- Desktop H2 -->
+        <Style x:Key="DesktopH2" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="30"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+
+        <!-- Desktop H3 -->
+        <Style x:Key="DesktopH3" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="25"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Desktop H4 -->
+        <Style x:Key="DesktopH4" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="20"/>
+            <Setter Property="Label.FontFamily" Value="RobotoMedium"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Desktop P -->
+        <Style x:Key="DesktopP" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="14"/>
+            <Setter Property="Label.FontFamily" Value="RobotoRegular"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Tablet H1 -->
+        <Style x:Key="TabletH1" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="25"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Tablet H2 -->
+        <Style x:Key="TabletH2" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="20"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Tablet H3 -->
+        <Style x:Key="TabletH3" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="18"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Tablet H4 -->
+        <Style x:Key="TabletH4" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="18"/>
+            <Setter Property="Label.FontFamily" Value="RobotoMedium"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Tablet P -->
+        <Style x:Key="TabletP" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="14"/>
+            <Setter Property="Label.FontFamily" Value="RobotoRegular"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Mobile H1 -->
+        <Style x:Key="PhoneH1" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="20"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Mobile H2 -->
+        <Style x:Key="PhoneH2" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="18"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBlack"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Mobile H3 -->
+        <Style x:Key="PhoneH3" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="16"/>
+            <Setter Property="Label.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Mobile H4 -->
+        <Style x:Key="PhoneH4" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="16"/>
+            <Setter Property="Label.FontFamily" Value="RobotoMedium"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    
+        <!-- Mobile P -->
+        <Style x:Key="PhoneP" TargetType="Label">
+            <Setter Property="Label.FontSize" Value="12"/>
+            <Setter Property="Label.FontFamily" Value="RobotoRegular"/>
+            <Setter Property="Label.TextColor" Value="{DynamicResource StandardText}"/>
+            <Setter Property="Label.Margin" Value="5"/>
+        </Style>
+    <!-- Buttons -->
+        <!-- Standard Theme -->
+        <!-- Desktop -->
+        <Style x:Key="DeskStandardButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource StandardButtonBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource StandardButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+
+        <Style x:Key="DeskStandardSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource Primary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+    
+        <!-- Tablet -->
+        <Style x:Key="TabletStandardButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource StandardButtonBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource StandardButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+
+        <Style x:Key="TabletStandardSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource Primary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+    
+        <!-- Mobile -->
+        <Style x:Key="PhoneStandardButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource StandardButtonBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource StandardButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+    </Style>
+
+        <Style x:Key="PhoneStandardSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource Primary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+    </Style>
+
+
+        <!-- Light Theme -->
+        <!-- Desktop -->
+        <Style x:Key="DeskLightButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightPrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource LightButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+
+        <Style x:Key="DeskLightSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightDark}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+    
+        <!-- Tablet -->
+        <Style x:Key="TabletLightButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightPrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource LightButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+
+        <Style x:Key="TabletLightSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightDark}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+    
+        <!-- Mobile -->
+        <Style x:Key="PhoneLightButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightPrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource LightButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+        <Style x:Key="PhoneLightSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource LightDark}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource White}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+        <!-- Dark Blue Theme -->
+        <!-- Desktop -->
+        <Style x:Key="DeskDarkBlueButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBluePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+
+        <Style x:Key="DeskDarkBlueSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBlueGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+    
+        <!-- Tablet -->
+        <Style x:Key="TabletDarkBlueButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBluePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+
+        <Style x:Key="TabletDarkBlueSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBlueGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+    
+            <!-- Mobile -->
+        <Style x:Key="PhoneDarkBlueButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBluePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+        <Style x:Key="PhoneDarkBlueSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkBlueGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkBlueDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+        <!-- Dark Purple Theme -->
+        <!-- Desktop -->
+        <Style x:Key="DeskDarkPurpleButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurplePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+
+        <Style x:Key="DeskDarkPurpleSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurpleGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="200"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="160"/>
+        </Style>
+
+        <!-- Tablet -->
+        <Style x:Key="TabletDarkPurpleButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurplePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+
+        <Style x:Key="TabletDarkPurpleSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurpleGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="18"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="160"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="120"/>
+        </Style>
+
+        <!-- Mobile -->
+        <Style x:Key="PhoneDarkPurpleButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurplePrimary}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleButtonText}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+        <Style x:Key="PhoneDarkPurpleSendButton" TargetType="Button">
+            <Setter Property="Button.BackgroundColor" Value="{DynamicResource DarkPurpleGreyBack}"/>
+            <Setter Property="Button.TextColor" Value="{DynamicResource DarkPurpleDarkGrey}"/>
+            <Setter Property="Button.FontFamily" Value="RobotoBold"/>
+            <Setter Property="Button.FontSize" Value="14"/>
+            <Setter Property="Button.BorderWidth" Value="0"/>
+            <Setter Property="Button.CornerRadius" Value="10"/>
+            <Setter Property="Button.MaximumWidthRequest" Value="120"/>
+            <Setter Property="Button.MinimumWidthRequest" Value="80"/>
+        </Style>
+
+    <!-- Content Box -->
+        <!-- Desktop -->
+        <Style x:Key="StandardTextCB" TargetType="Frame">
+            <Setter Property="Frame.HorizontalOptions" Value="Start"/>
+            <Setter Property="Frame.VerticalOptions" Value="Start"/>
+            <Setter Property="Frame.Padding" Value="10"/>
+            <Setter Property="Frame.CornerRadius" Value="10"/>
+            <Setter Property="Frame.BorderColor" Value="Transparent"/>
+        </Style>
+
+
+</ResourceDictionary>

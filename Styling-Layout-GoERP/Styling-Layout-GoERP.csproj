@@ -117,6 +117,9 @@
 	  <MauiXaml Update="Overall_StyleGuide.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\CustomStyle.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="StandardTheme\DesktopStandardTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
